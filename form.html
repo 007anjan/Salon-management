@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_BOOKING.css">
+    <title>Treatment Booking</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="booking-form" id="bookingForm" action="submit_form.php" method="post">
+            <h2>Book a Treatment</h2>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="treatment">Treatment Type:</label></td>
+                    <td>
+                        <select id="treatment" name="treatment" required>
+                            <option value="massage">Massage</option>
+                            <option value="facial">Facial</option>
+                            <option value="manicure">Manicure</option>
+                            <option value="pedicure">Pedicure</option>
+                            <option value="pedicure">Hair Cut</option>
+                            <option value="pedicure">Beard Trim</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date:</label></td>
+                    <td><input type="date" id="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="contact">Contact Number:</label></td>
+                    <td><input type="tel" id="contact" name="contact" required></td>
+                </tr>
+            </table>
+             <!-- Form fields here -->
+             <button type="submit">Submit</button>
+        </form>
+    </div>
+   
+
+</body>
+</html>

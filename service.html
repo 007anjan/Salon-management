@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <link rel="icon" href="images/fav.jpg" type="image/jpg"size="16*16">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section id="service">
+            <div id="title">
+                <p>SERVICES</p>
+                <h1>We Provides Best</h1>
+            </div>
+            <div id="s-box">
+                <div class="s-service">
+                    <img src="images/pic-1.jpg">
+                    <div class="overlay">
+
+                    </div>
+                    <div class="s-disc">
+                        <h2>Hair Treatment</h2>
+                        <hr>
+                        <p>Keratin treatment</p>
+                        <p>Hair straightening</p>
+                        <p>Hair smoothing</p>
+                        <p>Hot oil treatment</p>
+                        <p>Hair spa treatment</p>
+                        <p>Detox treatment</p>
+                        <p>Anti dandrof treatment</p>
+                        <p>Brazilian blowout</p>
+                        <p>Moisture treatment</p>
+                        <p>Global hair color</p>
+                        <p>Global hair cutting</p>
+                    </div>
+                </div>
+                <div class="s-service">
+                    <img src="images/pic-2.jpg">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="s-disc">
+                        <h2>Face Treatment</h2>
+                        <hr>
+                        <p>Beard trim</p>
+                        <p>Acne scars</p>
+                        <p>Chemical peels</p>
+                        <p>Laser skin resur facing</p>
+                        <p>Acne blue light therapy</p>
+                        <p>Thermage</p>
+                        <p>Hydrafacial</p>
+                        <p>vitamin c facing</p>
+                        <p>Relaxing facing treatment</p>
+                    </div>
+                </div>
+                <div class="s-service">
+                    <img src="images/pic-3.jpg">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="s-disc">
+                        <h2>Body Treatment</h2>
+                        <hr>
+                        <p>Salt serub</p>
+                        <p>Hydrating body wrap</p>
+                        <p>Balinese massage</p>
+                        <p>Serail mud chamber</p>
+                        <p>Hot stone massage</p>
+                        <p>deep tissue massage</p>
+                        <p>Holistic full body massage</p>
+                        <p>Detoxifying body mask-seaweed/mud/algae</p>
+                    </div>
+                </div>
+                <div class="s-service">
+                    <img src="images/pic-4.webp">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="s-disc">
+                        <h2>Pedicure</h2>
+                        <hr>
+                        <p>French pedicure</p>
+                        <p>Gel pedicure</p>
+                        <p>Fish pedicure</p>
+                        <p>Spa pedicure</p>
+                        <p>Pedicure with hot stone</p>
+                        <p>Mini pedicure</p>
+                    </div>
+                </div>
+
+                <div class="s-service">
+                    <img src="images/pic-5.jpg">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="s-disc">
+                        <h2>Manicure</h2>
+                        <hr>
+                        <p>Basic nails</p>
+                        <p>French tip gel nails</p>
+                        <p>American tip nails</p>
+                        <p>Acrylic dvarlay nails</p>
+                        <p>Gel nails manicure</p>
+                    </div>
+                </div>
+                <div class="s-service">
+                    <img src="images/pic-6.jpg">
+                    <div class="overlay">
+                        
+                    </div>
+                    <div class="s-disc">
+                        <h2>Waxing</h2>
+                        <hr>
+                        <p>Under arms waxing</p>
+                        <p>Hands waxing</p>
+                        <p>Stomach waxing</p>
+                        <p>Legs waxing</p>
+                        <p>Back waxing</p>
+                        <p>Chest waxing</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="features.html">FEATURES</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="form.html">BOOKING</a></li>
+                    
+                </ul>
+            </nav>
+
+        </div>
+        <div id="menu">
+            <img src="images/menu.png" id="img">
+        </div>
+        <script>
+            var menu=document.getElementById('menu');
+            var navigation=document.getElementById('navigation');
+            var img=document.getElementById('img');
+            navigation.style.right="-200px";
+            menu.onclick=function()
+            {
+                if(navigation.style.right=="-200px")
+                {
+                    navigation.style.right="0";
+                    img.src="images/close.png";
+                }
+                else
+                {
+                    navigation.style.right="-200px";
+                    img.src="images/menu.png";
+                }
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        <link rel="icon" href="images/fav.jpg" type="image/jpg"size="16*16">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section id="feedback">
+            <div id="title">
+                <p>FEEDBACK</p>
+                <h1>WHAT CLIENT SAYS</h1>
+            </div>
+            <div id="feedback-row">
+                <div id="feedback-col">
+                    <div id="user">
+                        <img src="images/img-1.jpg">
+                        <div id="user-info">
+                            <h3>Rupam Ghosh<i class="fa fa-twitter"></i></h3>
+                            <small>@rupam007</small>
+                        </div>
+                    </div>
+                    <p>your work looks great! It's clear that you care about your work and take the time to do it correctly. I especially liked that you asked the client about their expectation abd do carefully</p>
+
+                </div>
+                <div id="feedback-col">
+                    <div id="user">
+                        <img src="images/img-2.jpg">
+                        <div id="user-info">
+                            <h3>Aakriti Das<i class="fa fa-twitter"></i></h3>
+                            <small>@aakriti2019</small>
+                        </div>
+                    </div>
+                    <p>Great haircuts, fantastic services, love the atmosphere, nothing but a good afternoon. 💇‍♀️💆‍♀️</p>
+
+                </div>
+                <div id="feedback-col">
+                    <div id="user">
+                        <img src="images/img-3.jpg">
+                        <div id="user-info">
+                            <h3>Sabir Khan<i class="fa fa-twitter"></i></h3>
+                            <small>@sabir567</small>
+                        </div>
+                    </div>
+                    <p>This is the only salon that I trust to properly deal with my hair. Their extensive knowledge and skill are truly unmatched.</p>
+
+                </div>
+                <div id="feedback-col">
+                    <div id="user">
+                        <img src="images/img-4.jpg">
+                        <div id="user-info">
+                            <h3>Sumon Chatterjee<i class="fa fa-twitter"></i></h3>
+                            <small>@sumon012</small>
+                        </div>
+                    </div>
+                    <p>Easy appointments, welcoming staff, and talented employees! I was thrilled with my eyebrow wax, and bang trim. I will be back for more services!</p>
+
+                </div>
+                <div id="feedback-col-submit">
+                    <div id="user">
+                        <div id="user-info">
+                            <h3>Tell us your experience</h3>
+                            <small> <input type=" text" name="Feedback" placeholder="Feedback" size="100" required></small>
+                            <input id="submit-app" type="submit" name="submit" value="Submit"
+                                    onclick="alert('Your Feedback give us motivation to improve. Thank you')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+            
+        </section>
+
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="features.html">FEATURES</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="form.html">BOOKING</a></li>
+                    
+                </ul>
+            </nav>
+
+        </div>
+        <div id="menu">
+            <img src="images/menu.png" id="img">
+        </div>
+        <script>
+            var menu=document.getElementById('menu');
+            var navigation=document.getElementById('navigation');
+            var img=document.getElementById('img');
+            navigation.style.right="-200px";
+            menu.onclick=function()
+            {
+                if(navigation.style.right=="-200px")
+                {
+                    navigation.style.right="0";
+                    img.src="images/close.png";
+                }
+                else
+                {
+                    navigation.style.right="-200px";
+                    img.src="images/menu.png";
+                }
+            }
+
+        </script>
+
+
+    </body>
+
+</html>
